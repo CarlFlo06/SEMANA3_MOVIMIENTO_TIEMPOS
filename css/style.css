@@ -1,1 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*Oculta todo lo que contiene*/
+}
+
+#contenedor {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /*Oculta todo lo que contiene*/
+    background-color: black;
+}
+
+#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9 {
+    width: 4px;
+    height: 4px;
+    left: -500px;
+    position: absolute;
+    /*obligatorio para mover el div*/
+    background-color: white;
+}
+
+#c1 {
+    top: 5%;
+    animation: c1 1.5s linear infinite;
+}
+
+#c2 {
+    top: 15%;
+    animation: c2 3s linear infinite;
+
+}
+
+#c3 {
+    top: 25%;
+    animation: c3 5s linear infinite;
+}
+
+#c4 {
+    top: 35%;
+    animation: c4 2s linear infinite;
+}
+
+#c5 {
+    top: 45%;
+    animation: c5 6s linear infinite;
+}
+
+#c6 {
+    top: 55%;
+    animation: c6 2.5s linear infinite;
+}
+
+#c7 {
+    top: 65%;
+    animation: c7 4.5s linear infinite;
+}
+
+#c8 {
+    top: 75%;
+    animation: c8 7s linear infinite;
+}
+
+#c9 {
+    top: 85%;
+    animation: c9 3.5s linear infinite;
+}
+
+@keyframes c1 {
+    from {
+        left: -120px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c2 {
+    from {
+        left: -80px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c3 {
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c4 {
+    from {
+        left: -150px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c5 {
+    from {
+        left: -110px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c6 {
+    from {
+        left: -190px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c7 {
+    from {
+        left: -250px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c8 {
+    from {
+        left: -210px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes c9 {
+    from {
+        left: -140px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+#cuadrito {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /*obligatorio para mover el div*/
+    top: 30%;
+    left: 40%;
+}
+
+#cuadrito img {
+    width: 100%;
+    height: 100%;
+}
+
+#p1,#p2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /*obligatorio para mover el div*/
+    left: -500px;
+}
+
+#p1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#p1 {
+    top: 5%;
+    animation: p1 12s linear;
+}
+
+#p2 {
+    width: 300px;
+    top: 80%;
+    animation: p2 20s linear;
+    animation-delay: 10s;
+}
+
+#p2 img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes p1 {
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes p2 {
+    from {
+        left: -500px;
+    }
+
+    to {
+        left: 110%;
+    }
+}
